@@ -1,1 +1,3 @@
-# omis_jevgeni
+# Hello git 
+
+some text 
