@@ -1,0 +1,43 @@
+
+body {
+    background: rgb(66,88,208);
+    background: linear-gradient(69deg, rgba(66,88,208,1) 0%, rgba(201,80,193,1) 100%);
+    
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main-box {
+    background-color: white;
+    width: 50vw;
+    height: 50vh;
+    border-radius: 10px;
+    margin: auto;
+    /*min-height: 350px;
+    min-width: 400px;*/
+}
+
+.left-col {
+    width: 50%;
+    float: left;
+    background-color: white;
+    height: 100%; 
+    border-radius: 10px;
+    display: flex;
+    justify-content: center; /* horisontal aligining */
+    align-items: center; /* vertical aligining */
+}
+
+.right-col {
+    width: 50%;
+    float: right;
+    background-color: white;
+    height: 100%;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 100%;
+    width: 150px;
+}

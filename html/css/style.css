@@ -1,0 +1,31 @@
+/* TAG name connection */ 
+
+h1 {
+    color: red;
+    font-size: 28px;
+}
+
+
+
+
+
+
+/* class name connection */ 
+
+.my-header{
+    font-style: italic;
+}
+
+.bold-font {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.custom-font{
+    text-transform: uppercase;
+    color: green;
+}
+
+/* ID name connection */
+#header-1{
+    text-transform: lowercase;
+}
