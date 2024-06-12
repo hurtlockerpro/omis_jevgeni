@@ -1,8 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 :root {
     --bg-gray: #414141;
     --text-gray: #aaaaac;
+    --custom-gray-text: #89898b;
 }
 
 .photo img {
@@ -18,9 +19,9 @@
         background-color: var(--bg-gray);
     }
     .block h1 {
-        font-weight: bolder;
         color: white;
-        text-transform: capitalize;
+        text-transform: uppercase;
+        font-size: 28px;
     }
 
     .block p {
@@ -33,7 +34,7 @@
     .block h1 {
         font-weight: bolder;
         color: gray;
-        text-transform: capitalize;
+        text-transform: uppercase;
     }
     
     .block p {
@@ -50,13 +51,19 @@
 .block ul li {
     text-transform: uppercase;
     color: var(--text-gray);
-    font-size: 20px;
+    font-size: 15px;
 }
 
 /* RIGHT COLUMN */
-h1 {
+h1.custom1 {
     text-transform: uppercase;
     color: var(--bg-gray);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
 }
 
 h4 {
@@ -65,4 +72,43 @@ h4 {
 }
 .contact a {
     display: block;
+}
+
+/* CONTACT WITH ICONS */
+.link-map-wicon::before{
+    content: '\f3c5';
+}
+.link-phone-wicon::before{
+    content: '\f095';
+}
+.link-mail-wicon::before{
+    content: '\f0e0';
+}
+.link-page-wicon::before{
+    content: '\f57d';
+}
+
+.link-map-wicon, .link-phone-wicon, 
+.link-mail-wicon, .link-page-wicon {
+    text-decoration: none;
+    color: var(--bg-gray);
+}
+
+.link-map-wicon::before, .link-phone-wicon::before, 
+.link-mail-wicon::before, .link-page-wicon::before {
+    font-weight: 900;
+    font-family: 'Font Awesome 6 Free';
+    margin-right: 10px;
+    display: inline-flex;
+    width: 24px;
+    height: 24px;
+    justify-content: center; /* horisontal */
+    align-items: center; /* vertical */
+
+}
+
+.timeline-block h1 {
+    text-transform: uppercase;
+    color: var(--custom-gray-text);
+    margin-bottom: 20px;
 }
