@@ -27,6 +27,22 @@
     .block p {
         color: white;
     }
+
+    .block ul li {
+        text-transform: uppercase;
+        color: white;
+        font-size: 17px;
+    }
+
+    .container .row > div:last-child ul li {
+        text-transform: uppercase;
+        color: var(--text-gray);
+        font-size: 15px;
+    }
+
+    .container .row > div:last-child ul li:first-child {
+        list-style-type: none;
+    }
 }
 
 
@@ -40,19 +56,22 @@
     .block p {
         color: var(--text-gray);
     }
+
+    ul li {
+        text-transform: uppercase;
+        color: var(--text-gray);
+        font-size: 15px;
+    }
+
 }
 
 /* LIST */
-.block ul {
+ul {
     display: flex;
     justify-content: space-between;
 }
 
-.block ul li {
-    text-transform: uppercase;
-    color: var(--text-gray);
-    font-size: 15px;
-}
+
 
 /* RIGHT COLUMN */
 h1.custom1 {
@@ -107,8 +126,28 @@ h4 {
 
 }
 
-.timeline-block h1 {
+.container .row > div:last-child h1 {
     text-transform: uppercase;
     color: var(--custom-gray-text);
     margin-bottom: 20px;
+}
+
+/* PROGRESS BOX */
+.progress-box {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.progress-box h4 {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.progress-box .progress {
+    border-radius: 0;
+    height: 10px;
+}
+
+.progress-box .progress-bar {
+    background-color: var(--bg-gray);
 }
