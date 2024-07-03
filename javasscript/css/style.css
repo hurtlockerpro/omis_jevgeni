@@ -2,9 +2,11 @@
     width: 100px;
     height: 100px;
 
+    /*
     animation-name: CustomRotaion;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+    */
 }
 
 @keyframes CustomRotaion {

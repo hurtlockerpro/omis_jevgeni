@@ -3,19 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calc</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+        integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <link rel="stylesheet" href="./css/style.css">
+
 </head>
 <body>
     
+    <div class="container">
+        <div class="row">
+            <form>
+                <div class="mb-3">
+                  <label for="inputNumber" class="form-label">Insert number:</label>
+                  <input type="text" class="form-control" id="inputNumber">
+                  <div id="emailHelp" class="form-text">Insert any number</div>
+                </div>
+            </form>    
+        </div>
 
-    <div id="box">some text</div>
-    
-    <button id="btn">animate!</button>
+        <div class="row row-cols-4 g-2">
+            <div class="col">
+                <div class="btn btn-success w-100">1</div>
+            </div>
+            <div class="col">
+                <div class="btn btn-success w-100">2</div>
+            </div>
+            <div class="col">
+                <div class="btn btn-success w-100">3</div>
+            </div>
+            <div class="col">
+                <div class="btn btn-success w-100">/</div>
+            </div>
+            <div class="col">
+                <div class="btn btn-success w-100">4</div>
+            </div>
+            <div class="col">
+                <div class="btn btn-success w-100">5</div>
+            </div>
+            <div class="col">
+                <div class="btn btn-success w-100">6</div>
+            </div>
+            <div class="col">
+                <div class="btn btn-success w-100">*</div>
+            </div>
+            <div class="col">
+                <div class="btn btn-success w-100">7</div>
+            </div>
+            <div class="col">
+                <div class="btn btn-success w-100">8</div>
+            </div>
+            <div class="col">
+                <div class="btn btn-success w-100">9</div>
+            </div>
+            <div class="col">
+                <div class="btn btn-success w-100">-</div>
+            </div>
+            <div class="col">
+                <div class="btn btn-success w-100">0</div>
+            </div>
+            <div class="col">
+                <div class="btn btn-success w-100">CE</div>
+            </div>
+            <div class="col">
+                <div class="btn btn-success w-100">=</div>
+            </div>
+            <div class="col">
+                <div class="btn btn-success w-100">+</div>
+            </div>
+        </div>
+
+    </div>
 
 
 
-
-    <script src="./js/main.js"></script>
+    <script src="./js/calc.js"></script>
 </body>
 </html>

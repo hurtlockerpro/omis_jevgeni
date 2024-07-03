@@ -88,12 +88,21 @@ for (let index = 0; index < cars.length; index++) {
 
 // 1. 
 let box = document.getElementById("box")
+let btn = document.getElementById("btn")
 
-console.log(box);
-// font-size -> fontSize 
-// background-color -> backgroundColor
-box.style.fontSize = "30px"
-box.style.backgroundColor = "red"
-box.style.color = "Green"
+btn.addEventListener("click", (event) => {
+    console.log(event);
 
+    box.style.animationName = 'CustomRotaion'
+    box.style.animationDuration = '2s'
+    box.style.animationIterationCount = 'infinite' // 1
+})
+
+btn.addEventListener("click", (event) => {
+    if (event.ctrlKey == true){
+        box.style.animationName = ''
+    }
+})
+
+// arrow function -> callback
 
