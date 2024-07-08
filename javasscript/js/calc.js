@@ -70,10 +70,10 @@ let divide = (x, y) => { // visibility
 
 inputNumber.addEventListener('keydown', event =>  {
 
-   if (event.shiftKey == true && event.code == 'equal')
-   {
-    console.log('OK ');
-   }
+  if (event.shiftKey == true && event.code == 'equal')
+  {
+    console.log('OK');
+  }
    //Digit1
    // KeyF
     if (event.code != 'Digit' + event.key && event.code != 'Numpad' + event.key) 
